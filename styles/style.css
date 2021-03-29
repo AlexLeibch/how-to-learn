@@ -16,7 +16,7 @@
   display: flex;
   position: relative;
   flex-wrap: wrap;
-
+  color: #f2f2f2;
         /* выше установили ограничения для секции */
 }
 
@@ -42,6 +42,7 @@
   font-size: 102px;
   font-weight: bold;
   color: #1f1f1f;
+  z-index: 2;
  }
 
 .header__subtitle {
@@ -59,7 +60,6 @@
 }
 
 .header__link {
-  position: absoulte;
   left: 64px;
   bottom: 30px;
   text-decoration: none;
@@ -72,7 +72,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .header__square-pic {
@@ -97,11 +97,12 @@
 }
 
 .two-columns__brief {
-  min-width: 175px;
+  max-width: 175px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
   color:#2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -113,6 +114,8 @@
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .span-accent {
@@ -122,7 +125,7 @@
 }
 
 .two-columns__paragraph:last-of-type {
-  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 .two-columns__paragraph:first-of-type {
@@ -151,7 +154,7 @@
   line-height: 34px;
   font-size: 24px;
   display: flex;
-  font-weight: bold;
+  font-weight: normal;
   justify-content: space-around;
   align-items: center;
   align-self: center;
@@ -179,6 +182,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table__text {
@@ -193,9 +197,10 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 790px;
+  min-height: 790px;
   align-items: center;
-
+  color: #f2f2f2;
+  padding-top: 100px;
 }
 
 .feynman__title {
@@ -215,7 +220,8 @@
   margin-top: 70px;
   line-height: 51px;
   font-size: 36px;
-  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 0;
   z-index: 2;
   color:#1f1f1f;
 }
@@ -229,6 +235,8 @@
   font-size: 36px;
   font-style: normal;
   z-index: 2;
+  text-decoration: none;
+  color:#2f80ed;
 }
 
 .feynman__photo {
@@ -244,7 +252,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #1f1f1f ;
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -312,7 +320,7 @@
 
 .footer {
   min-height: 350px;
-  background: black;
+  background: #1f1f1f;
   display: flex;
 
 }
@@ -359,6 +367,7 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
+  list-style-type: none
 }
 
 .footer__column-link {
