@@ -249,7 +249,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: #1f1f1f ;
+  background-color: #1f1f1f;
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -364,7 +364,7 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  list-style-type: none
+  list-style-type: none;
 }
 
 .footer__column-link {
