@@ -79,6 +79,7 @@
 @import url(../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
 /* стили recources */
 @import url(../blocks/recources/recources.css);
 @import url(../blocks/recources/__logo-zone/recources__logo-zone.css);
