@@ -1,0 +1,8 @@
+.active-links {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.active-links:hover {
+  opacity: 0.3;
+}
