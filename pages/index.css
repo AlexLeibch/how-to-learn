@@ -85,7 +85,5 @@
 @import url(../blocks/recources/__logo/resources__logo.css);
 /* стили анимации */
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/rotation/__triangle_rotation/rotation__triangle_rotation.css);
-@import url(../blocks/rotation/__square-pic_rotation/rotation__square-pic_rotation.css);
 /* стиль анимации при наваденеии на ссылку */
 @import url(../blocks/active-links/active-links.css);
