@@ -1,5 +1,5 @@
 
-<h1 align="center"> Проектная работа второго спринта [Yandex.Practicum](https://praktikum.yandex.ru)
+<h1 align="center"> Проектная работа второго спринта **[Yandex.Practicum](https://praktikum.yandex.ru)
 </h1>
 
 
