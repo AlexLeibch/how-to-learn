@@ -1,5 +1,6 @@
 
-# Проектная работа второго спринта Yandex.Practicum
+<h1 align="center"> Проектная работа второго спринта Yandex.Practicum
+</h1>
 
 [Ссылка на репозиторий](https://github.com/AlexLeibch/how-to-learn)
 
