@@ -8,6 +8,8 @@
 
 [Ссылка на проект](https://alexleibch.github.io/how-to-learn/)
 
+![Watch the video](./public/how-to-learn.gif)
+
 ## Стек технологий  
 HTML5, CSS3
 - Flexbox-верстка
